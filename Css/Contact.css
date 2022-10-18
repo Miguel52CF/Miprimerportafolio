@@ -1,0 +1,75 @@
+.contact{
+    max-width: 980px;
+    margin: 0 auto;
+    /* box-shadow: 0 10px 10px 15px rgb(255, 255, 255); */
+}
+
+.contact-title{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--text-color);
+    font-weight:bold;
+}
+
+.contact-form{
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 0.5em 0.7em;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.contact input,textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.contact textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.contact-send{
+    background-color: var(--wave);
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.contact-img{
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+    border-radius: 50%;
+    padding: 0.2em;
+    padding-bottom: 0.05em;
+    margin: 10px;
+    background-color: var(--theme-color);
+    color: var(--secundary-color);
+}
+
+.contact-list{
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media(min-width: 950px){
+    .contact-title{
+        font-size: 50px;
+    }
+ 
+    .contact-send{
+        font-size: 30px;
+    }
+}
